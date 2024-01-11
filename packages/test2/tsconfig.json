@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "module": "Node16",
+    "target": "ES2019",
+    "baseUrl": ".",
+    "outDir": "dist/",
+    "rootDir": "src/",
+    "declarationDir": "typings/",
+    "tsBuildInfoFile": "typings/tsconfig.tsbuildinfo"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist", "__tests__"]
+}

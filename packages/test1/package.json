@@ -1,0 +1,17 @@
+{
+  "name": "@deokumar/test1",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Test1",
+  "repository": "armaan-kumar/test-npm",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rimraf dist",
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "Deo Kumar",
+  "license": "ISC"
+}
