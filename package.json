@@ -1,6 +1,5 @@
 {
   "name": "npm-test",
-  "version": "0.0.1",
   "description": "Test for npm",
   "workspaces": {
     "packages": [
