@@ -2,4 +2,4 @@
 "@deokumar/test2": patch
 ---
 
-fix(next): just test haha
+fix(next): just test 1
