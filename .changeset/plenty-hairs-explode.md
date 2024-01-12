@@ -2,4 +2,4 @@
 "@deokumar/test2": patch
 ---
 
-test
+test 2
