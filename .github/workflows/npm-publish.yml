@@ -1,20 +1,25 @@
 name: Publish packages to npm
+
 on:
   push:
     branches:
       - main
+
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
-#env:
+
+# env:
 #  TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
 #  TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
 #  TURBO_REMOTE_ONLY: true
+
 jobs:
-  #test:
-  #  name: ⬣, 🔎, 🔨 Test before releasing
-  #  uses: ./.github/workflows/build-and-test.yml
-  #  secrets: inherit
+  test:
+    name: ⬣, 🔎, 🔨 Test before releasing
+    uses: ./.github/workflows/build-and-test.yml
+    secrets: inherit
+
   publish:
     name: 🚀 Release packages
     # needs: [test]
