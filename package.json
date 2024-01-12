@@ -1,6 +1,6 @@
 {
   "name": "npm-test",
-  "description": "Test for npm package using changeset",
+  "description": "Test for npm package using .changeset",
   "workspaces": {
     "packages": [
       "packages/**/*"
